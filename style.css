@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    height: 100%;
+}
+#main{
+    width:100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+#back{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    
+    
+}
+#top{
+    position: absolute; /*it has to be at the top of back so position absolute now fix it*/
+    top: 0;
+    
+    width:100%;
+    height: 100vh;
+    background-color: black;
+}
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px;
+}
+#nav img{
+    height: 60px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "gilroy";
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#nleft{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#nright{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+#hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+}
+#heroleft{
+    min-width: 50%;
+    height: 100px;
+    background-color: yellow;
+}
+#heroright{
+    min-width: 25%;
+    height: 100px;
+    background-color: green;
+}
